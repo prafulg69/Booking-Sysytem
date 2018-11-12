@@ -28,7 +28,7 @@
          $this->load->library('email'); 
    
          $this->email->from($from_email, 'BOOKING CONFORMATION'); 
-         $this->email->to($assignmanger);
+         $this->email->to($user_email);
          // $this->email->cc('ishwar@iotenterprise.in');
          // $this->email->bcc('nikita.kumawat@customshape.in');
          $this->email->subject('Booking Status Changed'); 
